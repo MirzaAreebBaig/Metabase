@@ -1,11 +1,11 @@
 # Metabase
 
-Run Ubuntu Server
+Run Ubuntu Server<br><br>
 
-sudo apt update
-sudo apt install docker.io
-sudo systemctl enable --now docker
-sudo usermod -aG docker $USER
-
-docker pull metabase/metabase:latest
-docker run -d -p 3000:3000 --name metabase metabase/metabase
+sudo apt update<br>
+sudo apt install docker.io<br>
+sudo systemctl enable --now docker<br>
+sudo usermod -aG docker $USER<br>
+<br><br>
+docker pull metabase/metabase:latest<br>
+docker run -d -p 3000:3000 --name metabase metabase/metabase<br>
